@@ -6,6 +6,7 @@
     "start": "parcel src/index.html --open",
     "build": "parcel build src/index.html  --public-url ./",
     "lint": "eslint src/**/*.js",
+    "check": "tsc --noEmit",
     "format": "prettier --write src/**/*.{js,html,css}",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
